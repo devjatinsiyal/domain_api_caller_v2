@@ -1,0 +1,14 @@
+{
+    "name": "DOMAIN API calling extension",
+    "version": "2.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "manifest_version": 3
+}
